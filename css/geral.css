@@ -11,6 +11,10 @@ dl {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -336,4 +340,20 @@ body {
   display: inline-block;
   width: 8px;
   height: 10px;
+}
+
+.gotop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  color: #fb5;
+  bottom: 40px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.375em;
+  border-radius: 50%;
+  opacity: 0.9;
 }
